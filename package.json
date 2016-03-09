@@ -7,17 +7,30 @@
     {
       "name": "Christopher Mooney",
       "email": "chris@dod.net"
+    },
+    {
+      "name": "Angelo Rodrigues",
+      "email": "xangelo@gmail.com"
     }
   ],
   "repository": {
-    "type" : "git",
-    "url"  : "git://github.com/bpot/node-gossip.git" 
+    "type": "git",
+    "url": "git://github.com/bpot/node-gossip.git"
   },
-  "keywords": ["gossip"],
+  "keywords": [
+    "gossip"
+  ],
   "dependencies": {
-    "msgpack"     : ">= 0.0.0"
+    "msgpack": ">= 0.0.0"
   },
   "main": "index.js",
-  "scripts": { "test": "expresso -I lib test/*" },
-  "engines": { "node": "0.4.x || 0.5.x || 0.6.x || 0.7.x || 0.8.x || 0.9.x" }
+  "scripts": {
+    "test": "expresso -I lib test/*"
+  },
+  "engines": {
+    "node": "0.4.x || 0.5.x || 0.6.x || 0.7.x || 0.8.x || 0.9.x"
+  },
+  "devDependencies": {
+    "expresso": "^0.9.2"
+  }
 }
